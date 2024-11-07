@@ -30,7 +30,8 @@ local Constants = {
    NOTES                  = {},
    METADATA_TYPES = {
       "Text","Copyright","Name","Instrument","Lyric","Marker","Cue Point",
-      [33] = "Midi Port", [81] = "Tempo",[88] = "Time Signature",[89] = "Key Signature"
+      [33] = "Midi Port", [81] = "Tempo", 
+      [84] = "SMPTE Offset", [88] = "Time Signature",[89] = "Key Signature"
    }
 }
 
