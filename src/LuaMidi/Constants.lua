@@ -28,8 +28,10 @@ local Constants = {
    META_END_OF_TRACK_ID   = {0x2F, 0x00},
    PROGRAM_CHANGE_STATUS  = 0xC0,
    NOTES                  = {},
-   METADATA_TYPES = {"Text","Copyright","Name","Instrument","Lyric","Marker","Cue Point",
-      [81] = "Tempo",[88] = "Time Signature",[89] = "Key Signature"}
+   METADATA_TYPES = {
+      "Text","Copyright","Name","Instrument","Lyric","Marker","Cue Point",
+      [33] = "Midi Port", [81] = "Tempo",[88] = "Time Signature",[89] = "Key Signature"
+   }
 }
 
 local table_notes = {
